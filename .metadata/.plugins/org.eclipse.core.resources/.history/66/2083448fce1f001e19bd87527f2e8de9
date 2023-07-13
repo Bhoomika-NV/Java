@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class KodnestCalculaterApp {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	KodnestCalculater calci = new KodnestCalculater();
+	calci.addition();
+	calci.subtraction();
+	calci.multiplication();
+	calci.division();
+	calci.findremainder();
+	calci.findsquare();
+	
+	System.out.println("Welcome to kodnest calculater..........");
+	System.out.println("+---------------------->addition");
+	System.out.println("- ---------------------->Subtrcation");
+	System.out.println("*---------------------->Multiplication");
+	System.out.println("/---------------------->Division");
+	System.out.println("%---------------------->Find the reaminder");
+	System.out.println("^---------------------->power");
+	
+	
+	char ch =scan.next().charAt(0);
+	while(true)
+	{
+	switch (ch)
+	{
+	
+	case '+':
+		(num1+num2);
+		break;
+	case '-':
+		(num1-num2);
+		break;
+	case '*':
+		(num1*num2);
+		break;
+	case '/':
+		(num1/num2);
+		break;
+	case '%':
+		(num1%num2);
+		break;
+	case '^':
+		(num1^num2);
+		break;
+	}
+		
+}
+}
+}

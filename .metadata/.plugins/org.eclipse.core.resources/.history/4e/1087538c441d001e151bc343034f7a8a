@@ -1,0 +1,36 @@
+package arithmaticOperation;
+
+public class ArithmaticOperation {
+	public static void main(String[] args) {
+		int result1=subtractNumbers(20, 5);
+		int result2 = multiplyNumbers(4, 5);
+
+		double result3=divideNumbers(20, 4);
+
+		int result4=findRemainder(10, 3);
+		System.out.println(" the result of subtracting num2 from num1 "+result1);
+		System.out.println(" the result of multiplying num2 and num1 "+result2);
+		System.out.println(" the result of dividing num2 * num1 "+result3);
+		System.out.println("the result of remainder num2 and num1  "+result4);
+		
+	}
+	
+	public static int subtractNumbers(int num1, int num2)
+	{
+		return num2-num1;
+	}
+	public static int multiplyNumbers(int num1, int num2)
+	{
+		return num1*num2;
+	}
+	public static double divideNumbers(int num1, int num2)
+	{
+		return num2/num2;
+	}
+	public static int findRemainder(int num1, int num2)
+	{
+		return num1%num2;
+	}
+	
+
+}

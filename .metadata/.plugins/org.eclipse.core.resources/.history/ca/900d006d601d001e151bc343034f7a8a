@@ -1,0 +1,19 @@
+
+public class MessageDecoder {
+
+	public static void main(String[] args) {
+		MessageDecoder decoder = new MessageDecoder();
+
+		decoder.decodeCharacter('A');
+		
+
+	}
+			public int decodeCharacter(char ch)
+			{
+				
+return ch;
+			
+
+	}
+
+}

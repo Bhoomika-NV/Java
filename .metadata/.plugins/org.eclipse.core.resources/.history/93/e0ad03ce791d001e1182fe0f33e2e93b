@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class TemperatureConvertor {
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		double f =scan.nextDouble();
+		TemperatureConvertor convertFahrenheitToCelsius = new TemperatureConvertor();
+		//double res = temperatureConvertor.convertFahrenheitToCelsius(double fahrenheit);
+		convertFahrenheitToCelsius.convertFahrenheitToCelsius();
+	System.out.printf("%f.2f",temperatureConvertor.convertFahrenheitToCelsius(f));
+		
+		
+	
+
+	
+
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Jouney {
+
+	public static void main(String[] args) {
+		//Scanner scan = new Scanner(System.in);
+		Jouney j = new Jouney();
+
+		j.calculateDistance(60.0, 1.5);
+	}
+	
+
+	public double calculateDistance(double speed, double time)
+	{
+		double dist = speed*time;
+		return dist;
+	}
+
+
+	}
+
+}

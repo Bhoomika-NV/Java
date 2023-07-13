@@ -1,0 +1,17 @@
+
+public class TemperatureConvertor {
+	public static void main(String[] args) {
+		TemperatureConvertor temperatureConvertor = new TemperatureConvertor();
+		//double res = temperatureConvertor.convertFahrenheitToCelsius(double fahrenheit);
+
+	System.out.printf("%f.2\n",temperatureConvertor.convertFahrenheitToCelsius(68.0));
+		
+		
+	
+
+	
+
+		
+	}
+
+}

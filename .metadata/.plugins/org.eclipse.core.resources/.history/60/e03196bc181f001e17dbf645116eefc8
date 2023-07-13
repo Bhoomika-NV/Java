@@ -1,0 +1,10 @@
+
+public class SecretMessageDecoder {
+	public static void main(String[] args) {
+		
+		MessageDecoder messagedecoder = new MessageDecoder();
+        messagedecoder.decodeCharacter('A');
+	} 
+	
+
+}

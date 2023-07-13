@@ -1,0 +1,9 @@
+
+public class Jouney {
+
+	public static void main(String[] args) {
+		 double res = calculateDistance(double speed, double time);
+
+	}
+
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class MessageDecoder {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a char");
+		 //char ch = scan.nextChar().charAt(0);
+		MessageDecoder decoder = new MessageDecoder();
+
+		System.out.println(decoder.decodeCharacter('A'));
+		
+
+	}
+			public int decodeCharacter(char ch)
+			{
+				
+           return ch;
+			
+
+	}
+
+}

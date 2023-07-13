@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\USER\eclipse-Saturdaymarathon\.metadata\.plugins\org.eclipse.jdt.core
+3939481733.index
+140124885.index
+4276487592.index
+1865797976.index
